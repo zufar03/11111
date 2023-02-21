@@ -1,0 +1,1374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+.conteiner {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* forthe */
+
+.conteiner .forthe {
+  width: 100%;
+  height: 850px;
+  background-color: #0d0d2b;
+  padding: 60px 5%;
+}
+
+.conteiner .forthe .navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner .forthe .navbar .logo {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  border: 1px solid transparent;
+  text-align: center;
+  line-height: 40px;
+  gap: 16px;
+}
+
+.conteiner .forthe .navbar .logo p {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.conteiner .forthe .navbar .categore {
+  margin-left: 450px;
+}
+
+.conteiner .forthe .navbar .categore ul {
+  display: flex;
+  gap: 32px;
+}
+
+.conteiner .forthe .navbar .categore ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.conteiner .forthe .navbar .login {
+  display: flex;
+  gap: 24px;
+  color: #fff;
+}
+
+.conteiner .forthe .navbar .login p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.conteiner .forthe .navbar .login span {
+  color: #525267;
+  font-weight: 700;
+}
+
+.conteiner .forthe .navbar .login button {
+  width: 130px;
+  height: 52px;
+  background-color: #3671e9;
+  border-radius: 32px;
+  position: relative;
+  bottom: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.conteiner .forthe .navbar .login button a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.conteiner .forthe .navbar .login button:hover {
+  background-color: #fff;
+}
+
+.conteiner .forthe .navbar .login button:hover a {
+  color: #000;
+}
+/*  */
+
+/* content */
+
+.conteiner .content {
+  width: 100%;
+  height: 660px;
+  border: 1px solid transparent;
+  display: flex;
+  padding-top: 50px;
+}
+
+.conteiner .content .left {
+  width: 50%;
+  height: 100%;
+  padding-top: 80px;
+}
+
+.conteiner .content .left .friday {
+  width: 365px;
+  height: 40px;
+  background-color: #252540;
+  display: flex;
+  border-radius: 32px;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.conteiner .content .left .friday .save {
+  width: 113px;
+  height: 32px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 32px;
+  color: #0d0d2b;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.conteiner .content .left .friday span {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.conteiner .content .left h1 {
+  width: 588px;
+  height: 228px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  font-size: 64px;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.conteiner .content .left h6 {
+  width: 435px;
+  height: 56px;
+  border: 1px solid transparent;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-top: 24px;
+}
+
+.conteiner .content .left button {
+  width: 202px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #3671e9;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+.conteiner .content .left button a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  padding-right: 24px;
+}
+
+.conteiner .content .left button i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  align-items: center;
+  line-height: 32px;
+  color: #3671e9;
+  font-size: 18px;
+}
+
+.conteiner .content .right {
+  padding-left: 40px;
+}
+
+/*  */
+
+/* learn */
+
+.conteiner .learn {
+  width: 100%;
+  height: 800px;
+  border: 1px solid transparent;
+  background-color: #0d0d2b;
+  padding: 60px 5%;
+}
+
+.conteiner .learn .box {
+  width: 100%;
+  height: 90px;
+  border: 1px solid transparent;
+  display: flex;
+  gap: 130px;
+}
+
+.conteiner .learn .box .item {
+  width: 334px;
+  height: 100%;
+  display: flex;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.conteiner .learn .box .item .icon {
+  width: 80px;
+  height: 80px;
+  background-color: #252540;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner .learn .box .item .text {
+  padding-left: 24px;
+}
+
+.conteiner .learn .box .item .text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.conteiner .learn .box .item .text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #e0e0e0;
+  position: absolute;
+  bottom: 0;
+}
+
+.conteiner .learn .categore {
+  width: 100%;
+  height: 640px;
+  border: 1px solid transparent;
+  display: flex;
+}
+
+.conteiner .learn .categore .left {
+  width: 50%;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.conteiner .learn .categore .right {
+  width: 50%;
+  height: 100%;
+  padding-top: 176px;
+}
+
+.conteiner .learn .categore .right h1 {
+  width: 480px;
+  height: 120px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.conteiner .learn .categore .right p {
+  width: 408px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.conteiner .learn .categore .right button {
+  width: 146px;
+  height: 59px;
+  background-color: #3671e9;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.conteiner .learn .categore .right button a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.conteiner .learn .categore .right button:hover {
+  background-color: #fff;
+}
+
+.conteiner .learn .categore .right button:hover a {
+  color: #000;
+}
+
+/*  */
+
+/* much */
+
+.conteiner .much {
+  width: 100%;
+  height: 457px;
+  background-color: #0d0d2b;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  position: relative;
+  border: none;
+}
+
+.conteiner .much h1 {
+  width: 741px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.conteiner .much p {
+  width: 622px;
+  height: 54px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e0e0e0;
+  border: 1px solid transparent;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.conteiner .much .hash {
+  width: 942px;
+  height: 155px;
+  background-color: #fbfcfe;
+  border-radius: 16px 16px 0 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+  gap: 48px;
+  border: none;
+}
+
+.conteiner .much .hash input {
+  width: 403px;
+  padding: 7px 7px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fbfcfe;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0d0d2b;
+}
+
+.conteiner .much .hash select {
+  width: 200px;
+  padding: 7px 7px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fbfcfe;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0d0d2b;
+}
+
+.conteiner .much .hash button {
+  width: 147px;
+  height: 59px;
+  background-color: #3671e9;
+  border-radius: 32px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.conteiner .much .hash button a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.conteiner .much .hash button:hover {
+  background-color: #ccc;
+}
+
+.conteiner .much .hash button:hover a {
+  color: #000;
+}
+
+/*  */
+
+/* trade */
+
+.conteiner .trade {
+  width: 100%;
+  height: 1033px;
+  background-color: #f9fafd;
+  border: 1px solid transparent;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteiner .trade .hour {
+  width: 942px;
+  height: 216px;
+  background-color: #fff;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0px 25px 25px #f3f3f3;
+  padding: 48px 48px;
+}
+
+.conteiner .trade .hour h5 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #3671e9;
+}
+
+.conteiner .trade .hour h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #0d0d2b;
+  padding-top: 16px;
+}
+
+.conteiner .trade .hour h1 span {
+  color: #3671e9;
+}
+
+.conteiner .trade .hour p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #828282;
+  padding-top: 10px;
+}
+
+.conteiner .trade .text {
+  width: 741px;
+  height: 120px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.conteiner .trade .text h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.conteiner .trade .box {
+  width: 100%;
+  height: 433px;
+  border: 1px solid transparent;
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.conteiner .trade .box .item {
+  width: 370px;
+  height: 100%;
+  background-color: #2b076e;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px;
+}
+
+.conteiner .trade .box .item h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 48px;
+}
+
+.conteiner .trade .box .item h1 span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.7;
+  position: relative;
+  bottom: 4px;
+}
+
+.conteiner .trade .box .item p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.conteiner .trade .box .item button {
+  width: 202px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #3671e9;
+  margin-top: 48px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s;
+}
+
+.conteiner .trade .box .item button a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  padding-right: 24px;
+}
+
+.conteiner .trade .box .item button i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  align-items: center;
+  line-height: 32px;
+  color: #3671e9;
+  font-size: 18px;
+}
+
+.conteiner .trade .box .item button:hover {
+  background-color: #fff;
+}
+
+.conteiner .trade .box .item button:hover a {
+  color: #000;
+}
+
+.conteiner .trade .box .item button:hover i{
+  background-color: #3671e9;
+  color: #fff;
+}
+
+.conteiner .trade .box .ethereum {
+  width: 370px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px;
+  box-shadow: 0px 25px 25px #f3f3f3;
+}
+
+.conteiner .trade .box .ethereum h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+  margin-top: 48px;
+}
+
+.conteiner .trade .box .ethereum h1 span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #bdbdbd;
+  opacity: 0.7;
+  position: relative;
+  bottom: 4px;
+}
+
+.conteiner .trade .box .ethereum p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #828282;
+  margin-top: 16px;
+}
+
+.conteiner .trade .box .ethereum a i{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #D0C8DD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #3671e9;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.conteiner .trade .box .litecoin {
+  width: 370px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px;
+  box-shadow: 0px 25px 25px #f3f3f3;
+}
+
+.conteiner .trade .box .litecoin h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+  margin-top: 48px;
+}
+
+.conteiner .trade .box .litecoin h1 span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #bdbdbd;
+  opacity: 0.7;
+  position: relative;
+  bottom: 4px;
+}
+
+.conteiner .trade .box .litecoin p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #828282;
+  margin-top: 16px;
+}
+
+.conteiner .trade .box .litecoin a i{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #D0C8DD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #3671e9;
+  margin-top: 25px;
+  cursor: pointer;
+}
+/*  */
+
+/* market */
+
+.conteiner .market{
+  width: 100%;
+  height: 1874px;
+  background-color: #2B076E;
+}
+
+.conteiner .market .choice{
+  width: 100%;
+  height: 120px;
+  /* margin-top: 100px; */
+  padding: 100px 341px;
+  text-align: center;
+}
+
+.conteiner .market .choice h2{
+  width: 758px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.conteiner .market .smart{
+  width: 100%;
+  height: 400px;
+  border: 1px solid transparent;
+  margin-top: 100px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner .market .smart .left{
+  width: 50%;
+  height: 100%;
+
+}
+
+.conteiner .market .smart .left h2{
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.conteiner .market .smart .left p{
+  width: 408px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-top: 24px;
+}
+
+.conteiner .market .smart .left button{
+  width: 162px;
+  height: 59px;
+  margin-top: 32px;
+  background-color: #3671e9;
+  border-radius: 32px;
+  border: none;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.conteiner .market .smart .left button a{
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.conteiner .market .smart .left button:hover{
+  background-color: #fff;
+}
+
+.conteiner .market .smart .left button:hover a{
+  color: #000;
+}
+
+.conteiner .market .smart .right{
+  width: 580px;
+  height: 100%;
+  margin-right: 66px;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.conteiner .market .smart .right .btc{
+  width: 580px;
+  height: 298px;
+  background-color: #35068C;
+  border-radius: 16px;
+  padding: 5% 5%;
+}
+
+.conteiner .market .smart .right .btc .box{
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner .market .smart .right .btc .box .bitcoin{
+  display: flex;
+}
+
+.conteiner .market .smart .right .btc .box .bitcoin img{
+  width: 40px;
+  height: 40px;
+  margin-top: 0;
+}
+
+.conteiner .market .smart .right .btc .box .bitcoin .text {
+  margin-left: 16px;
+}
+
+.conteiner .market .smart .right .btc .box .bitcoin .text h6{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.conteiner .market .smart .right .btc .box .bitcoin .text h6 span{
+  font-weight: 600;
+  font-size: 16px;
+  color: #CFCFCF;
+  opacity: 0.7;
+  padding-left: 8px;
+  position: relative;
+  bottom: 4px;
+}
+
+.conteiner .market .smart .right .btc .box .bitcoin .text p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #F2F2F2;
+  margin-top: 4px;
+}
+
+.conteiner .market .smart .right .btc .box .prsint p{
+  font-weight: 500;
+  font-size: 14px;
+  color: #42FFFF;
+}
+
+.conteiner .market .smart .right .btc img{
+  margin-top: 24px;
+}
+
+.conteiner .market .smart .right .option{
+  width: 178px;
+  height: 184px;
+  background-color: #491F98;
+  padding: 20px 16px;
+  border-radius: 16px;
+  position: absolute;
+  top: 234px;
+  left: 64px;
+}
+
+.conteiner .market .smart .right .option h4{
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+.conteiner .market .smart .right .option p{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.conteiner .market .smart .right .option span{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+  position: relative;
+  top: 16px;
+}
+
+.conteiner .market .smart .right .dollar{
+  width: 169px;
+  height: 84px;
+  background-color: #491F98;
+  padding: 16px 32px;
+  border-radius: 16px;
+  position: absolute;
+  top: 255px;
+  right: 56px;
+}
+
+.conteiner .market .smart .right .dollar h4{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.conteiner .market .smart .right .dollar p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+
+.conteiner .market .statistic{
+  display: flex;
+  margin-top: 130px;
+}
+
+.conteiner .market .statistic .detailed{
+  margin-left: 91px;
+  margin-top: 105px;
+
+}
+
+.conteiner .market .statistic .detailed h1{
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+
+}
+
+.conteiner .market .statistic .detailed p{
+  width: 408px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #E0E0E0;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.conteiner .market .statistic .detailed button{
+  width: 162px;
+  height: 59px;
+  margin-top: 32px;
+  background-color: #3671e9;
+  border-radius: 32px;
+  border: none;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.conteiner .market .statistic .detailed button a{
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.conteiner .market .statistic .detailed button:hover{
+  background-color: #fff;
+}
+
+.conteiner .market .statistic .detailed button:hover a{
+  color: #000;
+}
+
+.conteiner .market .grow{
+  width: 100%;
+  height: 345px;
+  border: 1px solid transparent;
+  margin-top: 120px;
+  padding: 0 5%;
+  display: flex;
+}
+
+.conteiner .market .grow .left{
+  width: 40%;
+  height: 100%;
+}
+
+.conteiner .market .grow .left h1{
+  width: 454px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.conteiner .market .grow .left p{
+  width: 408px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #E0E0E0;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.conteiner .market .grow .left button{
+  width: 162px;
+  height: 59px;
+  margin-top: 32px;
+  background-color: #3671e9;
+  border-radius: 32px;
+  border: none;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.conteiner .market .grow .left button a{
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.conteiner .market .grow .left button:hover{
+  background-color: #fff;
+}
+
+.conteiner .market .grow .left button:hover a{
+  color: #000;
+}
+
+.conteiner .market .grow .right{
+  width: 60%;
+  height: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.conteiner .market .grow .right .change{
+  width: 610px;
+  height: 334px;
+  background-color: #34078D;
+  border-radius: 16px;
+ 
+}
+
+.conteiner .market .grow .right .change ul{
+  display: flex;
+  gap: 80px;
+  margin-left: 221px;
+  margin-top: 40px;
+}
+
+.conteiner .market .grow .right .change ul li a{
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .change .box{
+  display: flex;
+  margin-top: 19px;
+  margin-left: 40px;
+}
+
+.conteiner .market .grow .right .change .box img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.conteiner .market .grow .right .change .box .text{
+  margin-left: 16px;
+}
+
+.conteiner .market .grow .right .change .box .text h3{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .change .box .text p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+
+.conteiner .market .grow .right .change .box ul{
+  display: flex;
+  gap: 70px;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+.conteiner .market .grow .right .change .box ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .change .box ul li a span{
+  color: #8FFFBE;
+}
+
+.conteiner .market .grow .right .change .box2{
+  display: flex;
+  margin-top: 127px;
+  margin-left: 40px;
+}
+
+.conteiner .market .grow .right .change .box2 img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.conteiner .market .grow .right .change .box2 .text{
+  margin-left: 16px;
+}
+
+.conteiner .market .grow .right .change .box2 .text h3{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .change .box2 .text p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+
+.conteiner .market .grow .right .change .box2 ul{
+  display: flex;
+  gap: 70px;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+.conteiner .market .grow .right .change .box2 ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .change .box2 ul li a span{
+  color: #8FFFBE;
+}
+
+.conteiner .market .grow .right .eth{
+  width: 610px;
+  height: 79px;
+  background-color: #4610AD;
+  border-radius: 16px;
+  position: absolute;
+  top: 144px;
+  right: 72px;
+}
+
+.conteiner .market .grow .right .eth .box{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+
+.conteiner .market .grow .right .eth .box img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.conteiner .market .grow .right .eth .box .text{
+  margin-left: 16px;
+}
+
+.conteiner .market .grow .right .eth .box .text h3{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .eth .box .text p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+
+.conteiner .market .grow .right .eth .box ul{
+  display: flex;
+  gap: 70px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.conteiner .market .grow .right .eth .box ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.conteiner .market .grow .right .eth .box ul li a span{
+  color: #FF7676;
+}
+
+/*  */
+
+/* start */
+
+.conteiner .start{
+  width: 100%;
+  height: 392px;
+  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner .start .now{
+  width: 1200px;
+  height: 216px;
+  background-color: #3671E9;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.conteiner .start .now .text{
+  margin-left: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conteiner .start .now .text h3{
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.conteiner .start .now .text p{
+  width: 348px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.conteiner .start .now input{
+  width: 374px;
+  margin-left: 190px;
+  padding: 5px 0;
+  background-color: #3671E9;
+  border-bottom: 1px solid #86AAF2;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.conteiner .start .now input::placeholder{
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.conteiner .start .now button{
+  width: 152px;
+  height: 55px;
+  background-color: #fff;
+  margin-left: 40px;
+  border-radius: 32px;
+  border: none;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.conteiner .start .now button a{
+  font-weight: 500;
+  font-size: 18px;
+  color: #0D0D2B;
+}
+
+.conteiner .start .now button:hover{
+  background-color: rgb(44, 82, 94);
+}
+
+.conteiner .start .now button:hover a{
+  color: #fff;
+}
+/*  */
+
+/* footer */
+
+.conteiner footer{
+  width: 100%;
+  height: 552px;
+  background-color: #0D0D2B;
+  border: 1px solid transparent;
+  padding: 80px 120px;
+  display: flex;
+  position: relative;
+}
+
+.conteiner footer .logo{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.conteiner footer .logo img{
+  width: 40px;
+  height: 40px;
+}
+
+.conteiner footer .logo h2{
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+.conteiner footer .link{
+  margin-left: 171px;
+}
+
+.conteiner footer .link h2{
+  width: 200px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+}
+
+.conteiner footer .link ul{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conteiner footer .link ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+.conteiner footer .resources{
+  margin-left: 35px;
+}
+
+.conteiner footer .resources h2{
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+}
+
+.conteiner footer .resources ul{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conteiner footer .resources ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+}
+
+.conteiner footer .right{
+  width: 356px;
+  margin-left: 104px;
+}
+
+.conteiner footer .right h1{
+  width: 355px;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+}
+
+.conteiner footer .right .box{
+  padding-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+.conteiner footer .right .box .item{
+  width: 96px;
+  height: 64px;
+  background-color: #171734;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.conteiner footer .rights p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  left: 120px;
+  bottom: 80px;
+}
+
+.conteiner footer .icons{
+  display: flex;
+  gap: 35px;
+  position: absolute;
+  right: 120px;
+  bottom: 80px;
+}
+
+.conteiner footer .icons i{
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
